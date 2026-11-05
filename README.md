@@ -1,3 +1,16 @@
+// to run the project in terminal cmd : 
+// cd "C:\Users\KANIKA\OneDrive\Desktop\AI-Powered Stock Market Prediction Dashboard"
+
+// # only for the first time , if the .venv folder is not available :
+py -m venv .venv
+
+// # Install dependencies
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install six
+
+// # Start the dashboard
+.\.venv\Scripts\python.exe -m streamlit run streamlit_app.py
+
 # 📈 AI-Powered Stock Market Prediction Dashboard
 
 A real-time AI-powered stock market analytics dashboard built using Machine Learning, Streamlit, and financial data visualization techniques.
