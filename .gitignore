@@ -1,8 +1,4 @@
-__pycache__/
+_pycache_/
 *.pyc
 .env
 venv/
-.venv/
-.streamlit/secrets.toml
-.pytest_cache/
-stock_market.db
